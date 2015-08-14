@@ -17,6 +17,7 @@ def bubbleSort(L):
 
 		#bubble once through the list to
 		#move the largest item to the index end
+		#note: loop goes from i to end, not till len(L)
 		for i in range(end):
 			#check the size of adjacent elements
 			if L[i] > L[i+1]:
