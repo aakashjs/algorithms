@@ -21,7 +21,7 @@ def insert(L, i):
 	>>> L
 	[3, 7, 5, 2]
 	"""
-	# the value to be inderted into the sorted part of the list
+	# the value to be inserted into the sorted part of the list
 	value = L[i]
 	# Find the index, j, where the value belongs
 	# make room for the value by shifting
